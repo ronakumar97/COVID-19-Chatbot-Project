@@ -1,0 +1,39 @@
+{"intents": [
+        {"intent": "greeting",
+         "text": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+         "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"intent": "goodbye",
+         "text": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+        },
+        {"intent": "thanks",
+         "text": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {"intent": "what is covid",
+         "text": ["What is coronavirus?", "What is covid-19?", "What is covid"],
+         "responses": ["Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus,Most people infected with the COVID-19 virus will experience mild to moderate respiratory illness and recover without requiring special treatment,  Older people, and those with underlying medical problems like cardiovascular disease, diabetes, chronic respiratory disease, and cancer are more likely to develop serious illness,People also might get infected if they touch an infected droplet on a surface and then touch their own nose, mouth, or eyes, experts are looking at whether the virus can spread through stool (poop)."]
+        },
+        {"intent": "symptoms",
+         "text": [ "What Are the Signs of covid-19", "What are the symptoms of Coronavirus"],
+         "responses": ["COVID-19 can cause a range of symptoms, including,fever,cough, trouble breathing, symptoms of a cold such as a sore throat, congestion, or a runny nose, chills muscle pain, headache,a loss of taste or smell, nausea or vomiting,diarrhea,tiredness, the virus can be more serious in some people, and some people have no symptoms at all."]
+        },
+        {"intent": "information",
+         "text": [ "Where Can I Get Updated Information on Coronavirus (COVID-19):"],
+         "responses": ["Check the CDC and World Health Organization (WHO) websites for up-to-date, reliable information about coronavirus."]
+        },
+        {"intent": "spread",
+         "text": ["How does the virus spread?" ],
+         "responses": ["Breathing in air when close to an infected person who is exhaling small droplets and particles that contain the virus."],
+	 "context_set": ""
+	},
+	{"intent": "positive",
+         "text": ["What should i do if i test positive for covid-19" ],
+         "responses": ["Stay home for at least 5 days and isolate from others in your home."],
+	 "context_set": ""
+	}
+   ]
+}
+
