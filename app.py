@@ -21,7 +21,6 @@ def get_response(input_text):
     pred = model(sent_seq)
 
     pred_class = np.argmax(pred.numpy(), axis=1)
-
     return random.choice(intent_doc[trg_index_word[pred_class[0]]]), trg_index_word[pred_class[0]]
 
 @st.cache(allow_output_mutation=True)
