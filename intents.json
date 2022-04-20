@@ -13,7 +13,7 @@
          "Hey there?"
        ],
        "responses": [
-         ["Hello thanks for visiting. How can I help you?"]
+         "Hello thanks for visiting. How can I help you?"
        ]
      },
      {
@@ -85,7 +85,7 @@
        "intent": "Transport",
        "text": [
          "Is it safe to take the bus?",
-         "can i still use publictransport",
+         "can i still use public transport",
          "is it a bad idea to use public transport",
          "What is the bus frequency during COVID-19?",
          "How can public transportation be used during the outbreak?",
@@ -99,7 +99,7 @@
          "what should i do if i travel by bus every day",
          "i take the train to work every day",
          "can i take the train?",
-         "is it allowed to take buses or trains during this outage?",
+         "Is it allowed to take buses or trains during this outage?",
          "May I commute via the metro train?",
          "Are the buses still running during COVID-19?",
          "Whats the problem of traveling by bus?",
