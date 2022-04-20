@@ -57,7 +57,7 @@ if __name__ == '__main__':
 
     if "history" not in st.session_state:
         st.session_state.history = [
-            {"message": 'Welcome. I am your COVID-19 bot. How can I help ?', "is_user": False}
+            {"message": 'Welcome. I am CoronaBot. How can I help ?', "is_user": False}
         ]
 
     st.title('COVID-19 Chatbot')
