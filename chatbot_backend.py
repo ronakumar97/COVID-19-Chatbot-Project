@@ -27,7 +27,7 @@ def create_categorical_target(targets):
     return categorical_tensor, dict((v, k) for k, v in word.items())
 
 def train_model(tokenizer, input_tensor, target_tensor):
-    epochs = 50
+    epochs = 100
     vocab_size = len(tokenizer.word_index) + 1
     embed_dim = 512
     units = 128

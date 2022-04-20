@@ -68,6 +68,8 @@ if __name__ == '__main__':
     if(input_text):
         st.session_state.history.append({"message": input_text, "is_user": True})
         result, type = get_response(input_text)
+        print('INTENT TYPE -> {}'.format(type))
+        print('RESPONSE -> {}'.format(result))
 
         if(result):
             st.session_state.history.append({"message": result, "is_user": False})

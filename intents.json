@@ -1,39 +1,114 @@
-{"intents": [
-        {"intent": "greeting",
-         "text": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
-         "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
-         "context_set": ""
-        },
-        {"intent": "goodbye",
-         "text": ["Bye", "See you later", "Goodbye"],
-         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
-        },
-        {"intent": "thanks",
-         "text": ["Thanks", "Thank you", "That's helpful"],
-         "responses": ["Happy to help!", "Any time!", "My pleasure"]
-        },
-        {"intent": "what is covid",
-         "text": ["What is coronavirus?", "What is covid-19?", "What is covid"],
-         "responses": ["Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus,Most people infected with the COVID-19 virus will experience mild to moderate respiratory illness and recover without requiring special treatment,  Older people, and those with underlying medical problems like cardiovascular disease, diabetes, chronic respiratory disease, and cancer are more likely to develop serious illness,People also might get infected if they touch an infected droplet on a surface and then touch their own nose, mouth, or eyes, experts are looking at whether the virus can spread through stool (poop)."]
-        },
-        {"intent": "symptoms",
-         "text": [ "What Are the Signs of covid-19", "What are the symptoms of Coronavirus"],
-         "responses": ["COVID-19 can cause a range of symptoms, including,fever,cough, trouble breathing, symptoms of a cold such as a sore throat, congestion, or a runny nose, chills muscle pain, headache,a loss of taste or smell, nausea or vomiting,diarrhea,tiredness, the virus can be more serious in some people, and some people have no symptoms at all."]
-        },
-        {"intent": "information",
-         "text": [ "Where Can I Get Updated Information on Coronavirus (COVID-19):"],
-         "responses": ["Check the CDC and World Health Organization (WHO) websites for up-to-date, reliable information about coronavirus."]
-        },
-        {"intent": "spread",
-         "text": ["How does the virus spread?" ],
-         "responses": ["Breathing in air when close to an infected person who is exhaling small droplets and particles that contain the virus."],
-	 "context_set": ""
-	},
-	{"intent": "positive",
-         "text": ["What should i do if i test positive for covid-19" ],
-         "responses": ["Stay home for at least 5 days and isolate from others in your home."],
-	 "context_set": ""
-	}
+{
+   "intents": [
+     {
+       "intent": "Greeting",
+       "text": [
+         "Hi",
+         "Hello",
+         "How are you ?",
+         "Hello, is anyone here ?",
+         "Hi. I need some answers. Anyone here to help?",
+         "Hola?",
+         "Bonjour",
+         "Hey there?"
+       ],
+       "responses": [
+         ["Hello thanks for visiting. How can I help you?"]
+       ]
+     },
+     {
+       "intent": "Information",
+       "text": [
+         "what is exactly coronavirus?",
+         "Do you want to know what Coronavirus is?",
+         "what is coronavirus",
+         "What is coronavirus?",
+         "what is it exactly and why do you get so sick?",
+         "I need to know about the corona. What is it?",
+         "What is COVID-19?",
+         "What is the corona virus?",
+         "what is the coronavirus",
+         "What is Corona",
+         "What is coronavirus?",
+         "What does coronavirus mean?",
+         "What is the definition of coronavirus?",
+         "What is Covid-19?",
+         "whats corona",
+         "whats carona_",
+         "Is corona a virus?",
+         "Can you explain me what is the Corona?"
+       ],
+       "responses": [
+          "Coronavirus disease 2019 (COVID-19) is a contagious disease caused by a virus, the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). The first known case was identified in Wuhan, China, in December 2019. The disease has since spread worldwide, leading to the ongoing COVID-19 pandemic"       ]
+     },
+     {
+       "intent": "Precautions",
+       "text": [
+         "What should I be careful with when travelling?",
+         "how can i prevent getting corona while travelling?",
+         "can i travel? _",
+         "What do I need to do if Im going away?",
+         "dont travel",
+         "What do I need to do to be safe while traveling?",
+         "what precautions should i make if travelling",
+         "im going travelling, do I need to take any precautions?",
+         "What precautions do I need to take if I am going travelling?",
+         "I should I behave, if Im travelling?",
+         "Are there special precautions I have to take if Im travelling abroad?",
+         "I have to travel how do I protect myself",
+         "what should i do if i HAVE to travel soon",
+         "What shall I do if I need to travel?",
+         "Im going to do a trip. how can I protect myself during it?",
+         "is my Easter flight going to get cancelled",
+         "so do i need to wipe all doorknobs?_",
+         "What to do if I have to travel during corona virus!"
+       ],
+       "responses": [
+         "To prevent the spread of COVID-19: Maintain a safe distance from others (at least 1 metre), even if they don’t appear to be sick. Wear a mask in public, especially indoors or when physical distancing is not possible. Choose open, well-ventilated spaces over closed ones. Open a window if indoors. Clean your hands often. Use soap and water, or an alcohol-based hand rub. Get vaccinated when it’s your turn. Follow local guidance about vaccination. Cover your nose and mouth with your bent elbow or a tissue when you cough or sneeze. Stay home if you feel unwell."
+       ]
+     },
+     {
+       "intent": "Thanks",
+       "text": [
+         "Thanks",
+         "Thank you",
+         "That's helpful",
+         "Very informative",
+         "Very good",
+         "Thanks for telling me"
+       ],
+       "responses": [
+         "Happy to help"
+       ]
+     },
+     {
+       "intent": "Transport",
+       "text": [
+         "Is it safe to take the bus?",
+         "can i still use publictransport",
+         "is it a bad idea to use public transport",
+         "What is the bus frequency during COVID-19?",
+         "How can public transportation be used during the outbreak?",
+         "Is it fine if I use public transport?",
+         "Can I use public transport",
+         "what should i do if i use public transportation",
+         "Are buses and trains still running during coronavirus?",
+         "can I use the tube during the coronavirus crisis?",
+         "Can I use public transportation during the coronavirus outbreak?",
+         "Is public transport working?",
+         "what should i do if i travel by bus every day",
+         "i take the train to work every day",
+         "can i take the train?",
+         "is it allowed to take buses or trains during this outage?",
+         "May I commute via the metro train?",
+         "Are the buses still running during COVID-19?",
+         "Whats the problem of traveling by bus?",
+         "What are the rules for using the metro?",
+         "What are the rules for using the public transport?"
+       ],
+       "responses": [
+         "To protect everyone who rides, stay at home if you're sick. Don't ride public transportation if you have symptoms or you know you've been around someone with COVID-19 and it is recommended that you quarantine. It's possible to spread the virus once you're infected, even if you don't show symptoms. Travel at off-peak times when you can -- like late morning or before evening rush hour. Avoid subway cars and buses packed with people. If you count more than 10-15 passengers on your bus or train, wait for the next one. Leave an empty seat between you and the next passenger"
+       ]
+     }
    ]
-}
-
+ }
